@@ -1,0 +1,12 @@
+@use "./_mixins.scss" as *;
+
+// --- search modal --- //
+.DocSearch {
+  z-index: 1001 !important;
+  .DocSearch-Modal {
+    margin-top: 80px !important;
+    @include xs {
+      margin-top: 0 !important;
+    }
+  }
+}

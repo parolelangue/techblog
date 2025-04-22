@@ -1,0 +1,8 @@
+@use "./_mixins.scss" as *;
+
+.sidebar {
+  padding-top: 16px;
+  position: sticky;
+  top: 0;
+  transition: var(--main-cubic-beizer);
+}

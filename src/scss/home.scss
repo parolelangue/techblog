@@ -1,0 +1,10 @@
+@use "./_mixins.scss" as *;
+
+.homepage {
+  .box {
+    width: 400px;
+    height: 400px;
+    background-color: orange;
+    @include mid(true);
+  }
+}

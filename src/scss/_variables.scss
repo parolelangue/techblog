@@ -1,0 +1,49 @@
+/*primary colors*/
+$main-cl: #086d46;
+
+$white-cl: #ffffff;
+$yellow-cl: #ffce02;
+$gray-cl: #f4f4f4;
+$black-cl: #000000;
+$gray-text-cl: #555555;
+$lightgray-cl: #c4c4c4;
+$line-cl: #e5e5e5;
+
+// level index
+$zIndex-lv0: -1;
+$zIndex-lv1: 1;
+$zIndex-lv2: 5;
+$zIndex-lv3: 10;
+$zIndex-lv4: 100;
+$zIndex-lv5: 500;
+$zIndex-lv5: 999;
+
+// timing transition
+$t: 0.4s;
+$cubic: cubic-bezier(0.59, 0.29, 0.15, 0.93);
+
+/*font families*/
+$font-stack: "Open Sans", sans-serif;
+$font-main: "Nu-el";
+
+//============================================================//
+
+/*BOXED LAYOUT*/
+$container-max-width: 100%;
+$container-width: 1520px;
+$container-small-width: 870px;
+$w-full: 100%;
+$h-full: 100%;
+$vh-full: 100vh;
+/*GRID - media queries breakpoints*/
+$xxs-min: 400px;
+$xs-min: 768px;
+$sm-min: 992px;
+$md-min: 1200px;
+$lg-min: 1600px;
+
+$xxs-max: ($xxs-min - 1); // Small Mobile
+$xs-max: ($xs-min - 1); // Mobile
+$sm-max: ($sm-min - 1); // Tablet
+$md-max: ($md-min - 1); // Desktop
+$lg-max: ($lg-min - 1); // Large Desktop

@@ -22,6 +22,12 @@
     height: 59px;
     background-color: var(--ifm-background-color) !important;
 
+    &__item {
+      font-weight: 500;
+    }
+    &__link {
+    }
+
     &__inner {
       @include mid(true);
       justify-content: space-between;

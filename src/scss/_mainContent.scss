@@ -1,0 +1,22 @@
+@use "./_mixins.scss" as *;
+
+.main-content {
+  .doc-toc {
+    .table-of-contents {
+      border-left: none;
+    }
+    .toc-item {
+      a {
+        padding: 4px 12px;
+        font-size: 14px;
+        transition: all 0.25s;
+        &.table-of-contents__link--active {
+          background: var(--ifm-menu-color-background-active);
+          border-radius: 6px;
+          font-weight: 500;
+          transition: all 0.25s;
+        }
+      }
+    }
+  }
+}

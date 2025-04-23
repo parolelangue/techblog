@@ -7,7 +7,7 @@ type Props = WrapperProps<typeof DocRootType>;
 
 export default function DocRootWrapper(props: Props): ReactNode {
   return (
-    <div className="container">
+    <div className="container main-content">
       <DocRoot {...props} />{" "}
     </div>
   );

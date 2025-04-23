@@ -1,12 +1,13 @@
-/**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
- */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
 
-/* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
+  --ifm-color-primary: #2415f4;
+  --ifm-menu-color-background-active: rgba(239, 248, 255, 1);
+  --ifm-menu-color-background-hover: rgba(239, 248, 255, 1);
+  --ifm-menu-color: #919297;
+  --ifm-menu-hover-color: #393a3d;
+  --ifm-navbar-link-color: #393a3d;
+  --ifm-menu-link-padding-vertical: 0.5rem;
   --ifm-color-primary-dark: #29784c;
   --ifm-color-primary-darker: #277148;
   --ifm-color-primary-darkest: #205d3b;
@@ -17,6 +18,8 @@
   --ifm-background-color: #ffffff;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
   --main-cubic-beizer: 0.25s all cubic-bezier(0.59, 0.29, 0.15, 0.93);
+  --ifm-container-width-xl: 1536px;
+  --ifm-container-width: initial;
 
   /* Header */
   --main-header-border-color: #f1f2f2;
@@ -24,7 +27,14 @@
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme="dark"] {
-  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary: #2415f4;
+  --ifm-menu-color-background-active: rgba(239, 248, 255, 1);
+  --ifm-menu-color-background-hover: rgba(239, 248, 255, 1);
+  --ifm-menu-color: #919297;
+  --ifm-menu-hover-color: #ffffff;
+  --ifm-navbar-link-color: #393a3d;
+
+  --ifm-menu-link-padding-vertical: 0.5rem;
   --ifm-color-primary-dark: #21af90;
   --ifm-color-primary-darker: #1fa588;
   --ifm-color-primary-darkest: #1a8870;
@@ -33,6 +43,9 @@
   --ifm-color-primary-lightest: #4fddbf;
   --ifm-background-color: #000000;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+
+  --ifm-container-width-xl: 1536px;
+  --ifm-container-width: initial;
 
   /* Header */
   --main-header-border-color: #444950;
@@ -78,4 +91,10 @@
     var(--ifm-color-emphasis-200) 0%,
     var(--ifm-color-emphasis-100) 100%
   );
+}
+
+html,
+body {
+  font-family: "Inter", sans-serif;
+  scroll-behavior: smooth;
 }

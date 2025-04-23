@@ -6,9 +6,5 @@ import type { WrapperProps } from "@docusaurus/types";
 type Props = WrapperProps<typeof LayoutType>;
 
 export default function LayoutWrapper(props: Props): ReactNode {
-  return (
-    <div className="container">
-      <Layout {...props} />
-    </div>
-  );
+  return <Layout {...props} />;
 }

@@ -1,14 +1,23 @@
 import React, { type ReactNode } from "react";
-import DocSidebar from "@theme-original/DocSidebar";
-import type DocSidebarType from "@theme/DocSidebar";
-import type { WrapperProps } from "@docusaurus/types";
+import { useWindowSize } from "@docusaurus/theme-common";
+import DocSidebarDesktop from "@theme/DocSidebar/Desktop";
+import DocSidebarMobile from "@theme/DocSidebar/Mobile";
+import type { Props } from "@theme/DocSidebar";
 
-type Props = WrapperProps<typeof DocSidebarType>;
+export default function DocSidebar(props: Props): ReactNode {
+  const windowSize = useWindowSize();
 
-export default function DocSidebarWrapper(props: Props): ReactNode {
+  // Desktop sidebar visible on hydration: need SSR rendering
+  const shouldRenderSidebarDesktop =
+    windowSize === "desktop" || windowSize === "ssr";
+
+  // Mobile sidebar not visible on hydration: can avoid SSR rendering
+  const shouldRenderSidebarMobile = windowSize === "mobile";
+
   return (
     <div className="sidebar">
-      <DocSidebar {...props} />
+      {shouldRenderSidebarDesktop && <DocSidebarDesktop {...props} />}
+      {shouldRenderSidebarMobile && <DocSidebarMobile {...props} />}
     </div>
   );
 }

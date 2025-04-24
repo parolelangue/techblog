@@ -6,5 +6,9 @@ import type { WrapperProps } from "@docusaurus/types";
 type Props = WrapperProps<typeof SearchBarType>;
 
 export default function SearchBarWrapper(props: Props): ReactNode {
-  return <SearchBar {...props} />;
+  return (
+    <div className="search-bar">
+      <SearchBar {...props} />
+    </div>
+  );
 }

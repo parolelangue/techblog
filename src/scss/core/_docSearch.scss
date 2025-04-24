@@ -1,0 +1,52 @@
+@use "./_mixins.scss" as *;
+
+.DocSearch {
+  &--active {
+  }
+  &-Container {
+    background-color: rgb(var(--ifm-doc-search-modal-background) / 0.16);
+    backdrop-filter: blur(10px);
+  }
+  &-Footer {
+    .DocSearch-Logo {
+      visibility: hidden;
+    }
+  }
+  &-Modal {
+    max-width: var(--ifm-doc-search-modal-width) !important;
+    border-radius: 0.75rem !important;
+    overflow: hidden !important;
+
+    .DocSearch-Form {
+      border-radius: 0.75rem;
+    }
+  }
+  &-Dropdown {
+    .DocSearch-Hits {
+      .DocSearch-Hit-source {
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+      }
+      .DocSearch-Hit {
+        border-radius: 0.5rem;
+
+        &[aria-selected="true"] {
+          a {
+            background-color: var(--docsearch-highlight-color) !important;
+            transform: scaleX(0.995);
+            transition: transform 0.15s;
+          }
+        }
+
+        a {
+          background-color: var(--ifm-doc-search-hit-background);
+          border-radius: inherit;
+          transition: transform 0.15s;
+        }
+      }
+    }
+    .DocSearch-HitsFooter {
+      display: none !important;
+    }
+  }
+}

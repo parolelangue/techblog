@@ -19,4 +19,16 @@
       }
     }
   }
+
+  @include xs {
+    margin-top: 64px;
+  }
+
+  .pagination-nav {
+    position: sticky;
+    bottom: 0;
+    background-color: var(--main-footer-background-color);
+    z-index: 5;
+    padding: 0.5rem 0;
+  }
 }

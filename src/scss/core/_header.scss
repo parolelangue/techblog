@@ -1,0 +1,74 @@
+@use "./_mixins.scss" as *;
+
+.header {
+  height: 64px;
+  background-color: var(--ifm-background-color) !important;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  top: 0;
+  left: 0;
+  border-bottom: 1px solid var(--main-header-border-color) !important;
+  //   padding-bottom: 64px;
+
+  .container {
+    @include xs {
+      padding: 0;
+    }
+  }
+
+  .navbar {
+    box-shadow: none;
+    height: 63px;
+    background-color: var(--ifm-background-color) !important;
+
+    &__items {
+      display: flex;
+      align-items: center;
+    }
+
+    &__item {
+      font-weight: 500;
+    }
+    &__link {
+    }
+
+    &__inner {
+      @include mid(true);
+      justify-content: space-between;
+      align-items: center;
+
+      .navbar__logo {
+        @include xs {
+          height: 1.75rem;
+        }
+      }
+      // .navbar__title {
+      //   font-size: 1.25rem;
+      //   text-transform: uppercase;
+      // }
+    }
+    &__items {
+      width: fit-content;
+    }
+  }
+
+  .search-bar {
+    width: 220px;
+    .DocSearch-Button {
+      width: 100%;
+      border-radius: 0.5rem;
+      border: 1px solid var(--ifm-doc-search-button-border);
+      background: var(--ifm-doc-search-button-background);
+      transition: all 0.25s;
+      &:hover {
+        border-color: transparent;
+        box-shadow: var(--ifm-doc-search-ring-offest-shadow, 0 0 #0000),
+          var(--ifm-doc-search-ring-shadow, 0 0 #0000),
+          var(--ifm-doc-search-shadow);
+        // transform: translateY(1px) scale(1.005);
+        transition: all 0.25s;
+      }
+    }
+  }
+}

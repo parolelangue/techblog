@@ -23,16 +23,28 @@
 
   /* Header */
   --main-header-border-color: #f1f2f2;
+  --ifm-doc-search-button-background: #fff;
+  --ifm-doc-search-button-border: #e5e7eb;
+  --ifm-doc-search-ring-offest-shadow: 0 0 0 0px #fff;
+  --ifm-doc-search-ring-shadow: 0 0 0 calc(1px + 0px) rgb(199 204 218);
+  --ifm-doc-search-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -2px rgba(0, 0, 0, 0.1);
+  --ifm-doc-search-modal-background: 23 28 44;
+  --ifm-doc-search-modal-width: 700px;
+  --ifm-doc-search-hit-background: #fff;
+
+  /* Footer */
+  --main-footer-background-color: #fff;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme="dark"] {
-  --ifm-color-primary: #2415f4;
-  --ifm-menu-color-background-active: rgba(239, 248, 255, 1);
-  --ifm-menu-color-background-hover: rgba(239, 248, 255, 1);
+  --ifm-color-primary: #70b5e4;
+  --ifm-menu-color-background-active: rgba(255, 255, 255, 0.1);
+  --ifm-menu-color-background-hover: rgba(255, 255, 255, 0.1);
   --ifm-menu-color: #919297;
   --ifm-menu-hover-color: #ffffff;
-  --ifm-navbar-link-color: #393a3d;
+  --ifm-navbar-link-color: #fff;
 
   --ifm-menu-link-padding-vertical: 0.5rem;
   --ifm-color-primary-dark: #21af90;
@@ -49,6 +61,18 @@
 
   /* Header */
   --main-header-border-color: #444950;
+  --ifm-doc-search-button-background: rgba(255, 255, 255, 0.1);
+  --ifm-doc-search-button-border: #58585a;
+  --ifm-doc-search-ring-offest-shadow: 0 0 0 0px #fff;
+  --ifm-doc-search-ring-shadow: 0 0 0 calc(1px + 0px) rgb(199 204 218);
+  --ifm-doc-search-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -2px rgba(0, 0, 0, 0.1);
+  --ifm-doc-search-modal-background: 23 28 44;
+  --ifm-doc-search-modal-width: 700px;
+  --ifm-doc-search-hit-background: rgba(255, 255, 255, 0.05);
+
+  /* Footer */
+  --main-footer-background-color: #1b1b1d;
 }
 
 [data-theme="light"] .DocSearch {

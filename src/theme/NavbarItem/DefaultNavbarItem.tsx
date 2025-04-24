@@ -5,7 +5,6 @@ import type {
   DesktopOrMobileNavBarItemProps,
   Props,
 } from "@theme/NavbarItem/DefaultNavbarItem";
-import { useLocation } from "@docusaurus/router";
 
 function DefaultNavbarItemDesktop({
   className,
@@ -16,21 +15,12 @@ function DefaultNavbarItemDesktop({
   const element = (
     <NavbarNavLink
       className={clsx(
-        isDropdownItem ? "dropdown__link" : "navbar__item navbar__link",
-        className + " " + (isDropdownItem ? activeClassName || "" : "")
+        isDropdownItem ? "dropdown__link" : "navbar__item navbar__link"
+        // className + " " + (isDropdownItem ? activeClassName || "" : "")
       )}
       isDropdownLink={isDropdownItem}
       {...props}
     />
-  );
-
-  //TODO:
-  console.log(
-    "isDropdownItem",
-    clsx(
-      isDropdownItem ? "dropdown__link" : "navbar__item navbar__link",
-      className + " " + (isDropdownItem ? activeClassName : "")
-    )
   );
 
   if (isDropdownItem) {

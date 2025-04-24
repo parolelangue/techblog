@@ -1,11 +1,13 @@
 // ---- CORE ---- //
-@use "./_common.scss";
-@use "./_variables.scss";
-@use "./_mixins.scss";
+@use "./core/_common.scss";
+@use "./core/_variables.scss";
+@use "./core/_mixins.scss";
+@use "./core/_header.scss";
+@use "./core/_sidebar.scss";
+@use "./core/_docSearch.scss";
+@use "./core/_mainContent.scss";
+@use "./core/_components.scss";
 
 // ----- PAGES ----- //
-@use "./_header.scss";
-@use "./_sidebar.scss";
-@use "./mainContent.scss";
-@use "./_components.scss";
-@use "./home.scss";
+@use "./pages/homePage.scss";
+@use "./pages/blogPage.scss";

@@ -443,5 +443,8 @@
   "theme.SearchPage.fetchingNewResults": {
     "message": "새로운 검색 결과를 불러오는 중입니다.",
     "description": "The paragraph for fetching new search results"
+  },
+  "Aprotech Tutorial": {
+    "message": "Aprotech Tutorial"
   }
 }

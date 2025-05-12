@@ -7,11 +7,11 @@ import TabItem from '@theme/TabItem';
 import Mermaid from '@theme/Mermaid';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
-# Tutorial Intro
+# 튜토리얼 소개
 
 Let's discover **Docusaurus in less than 5 minutes**.
 
-## Getting Started
+## 시작하기
 
 Get started by **creating a new site**.
 

@@ -7,11 +7,11 @@ import TabItem from '@theme/TabItem';
 import Mermaid from '@theme/Mermaid';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
-# Tutorial Intro
+# Hướng dẫn giới thiệu
 
 Let's discover **Docusaurus in less than 5 minutes**.
 
-## Getting Started
+## Bắt đầu
 
 Get started by **creating a new site**.
 

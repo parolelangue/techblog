@@ -22,9 +22,6 @@
     height: 63px;
     background-color: var(--ifm-background-color) !important;
 
-    &__brand {
-    }
-
     &__items {
       display: flex;
       align-items: center;
@@ -58,6 +55,9 @@
 
   .search-bar {
     width: 220px;
+    @include xs {
+      width: 100px;
+    }
     .DocSearch-Button {
       width: 100%;
       border-radius: 0.5rem;

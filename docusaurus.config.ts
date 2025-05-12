@@ -92,7 +92,7 @@ const config: Config = {
     navbar: {
       // title: "Aprotech",
       logo: {
-        alt: "Aprotech Logo",
+        alt: "Aprotech",
         // src: "img/logo.svg",
         src: "img/logo.png",
       },

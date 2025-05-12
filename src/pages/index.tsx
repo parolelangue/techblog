@@ -23,7 +23,7 @@ function HomepageHeader() {
             className="button red button--secondary button--lg"
             to="/docs/intro"
           >
-            <Translate>Docusaurus Tutorial - 5min</Translate> ⏱️
+            <Translate>Aprotech Tutorial </Translate> ⏱️
           </Link>
         </div>
       </div>

@@ -310,8 +310,8 @@
     "message": "Tags",
     "description": "The title of the tag list page"
   },
-  "Docusaurus Tutorial - 5min": {
-    "message": "Docusaurus Tutorial - 5min"
+  "Aprotech Tutorial ": {
+    "message": "Aprotech Tutorial "
   },
   "theme.SearchBar.seeAll": {
     "message": "See all {count} results"

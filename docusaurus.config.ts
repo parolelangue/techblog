@@ -97,11 +97,11 @@ const config: Config = {
         src: "img/logo.png",
       },
       items: [
-        {
-          position: "right",
-          label: "Open Aprotech",
-          to: "/apis",
-        },
+        // {
+        //   position: "right",
+        //   label: "Open Aprotech",
+        //   to: "/apis",
+        // },
         {
           type: "docSidebar",
           sidebarId: "tutorialSidebar",

@@ -1,0 +1,12 @@
+services:
+  web:
+    build: .
+    image: docusaurus-landing/app:latest
+    container_name: docusaurus-landing
+    restart: always
+    env_file:
+      - .env.production
+    volumes:
+      - .:/code
+    ports:
+      - '3006:3000'

@@ -22,6 +22,9 @@
     height: 63px;
     background-color: var(--ifm-background-color) !important;
 
+    &__brand {
+    }
+
     &__items {
       display: flex;
       align-items: center;

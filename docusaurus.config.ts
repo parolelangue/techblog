@@ -5,9 +5,9 @@ import type * as Preset from "@docusaurus/preset-classic";
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: "My Site",
-  tagline: "Dinosaurs are cool",
-  favicon: "img/favicon.ico",
+  title: "Aprotech",
+  tagline: "Aprotech",
+  favicon: "img/small-logo.png",
 
   // Set the production url of your site here
   url: "https://your-docusaurus-site.example.com",
@@ -87,13 +87,14 @@ const config: Config = {
       disableSwitch: false,
       respectPrefersColorScheme: true,
     },
+
     searchParameters: {},
     navbar: {
-      title: "Aprotech",
+      // title: "Aprotech",
       logo: {
         alt: "Aprotech Logo",
         // src: "img/logo.svg",
-        src: "img/logo-rayon.png",
+        src: "img/logo.png",
       },
       items: [
         {

@@ -1,56 +1,52 @@
-import type {ReactNode} from 'react';
-import clsx from 'clsx';
-import Heading from '@theme/Heading';
-import styles from './styles.module.css';
+import type { ReactNode } from "react";
+import clsx from "clsx";
+import Heading from "@theme/Heading";
+import styles from "./styles.module.css";
+import { cn } from "@site/src/utils/classnames";
+import Translate from "@docusaurus/Translate";
 
 type FeatureItem = {
   title: string;
-  Svg: React.ComponentType<React.ComponentProps<'svg'>>;
-  description: ReactNode;
+  Svg: React.ComponentType<React.ComponentProps<"svg">>;
+  description: string;
+  img: string;
 };
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
-    description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
-    ),
+    title: "Solution",
+    Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
+    description: "Smarter Solutions, Power by AI",
+    img: require("@site/static/img/ic-solution.png").default,
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
+    title: "Service",
+    Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
+    description: "Human Computing Services for Digital Transformation",
+    img: require("@site/static/img/ic-service.png").default,
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
-    ),
+    title: "Technology",
+    Svg: require("@site/static/img/undraw_docusaurus_react.svg").default,
+    description:
+      "Our core technology is specialized in Artificial Intelligence",
+    img: require("@site/static/img/ic-technology.png").default,
   },
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature({ title, Svg, description, img }: FeatureItem) {
   return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+    <div className={clsx("features__item col col--4")}>
+      <div className="icon text--center">
+        <img src={img} />
       </div>
       <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
-        <p>{description}</p>
+        <Heading as="h3" className="title">
+          <Translate>{title}</Translate>
+        </Heading>
+        <p className="desc">
+          <Translate>{description}</Translate>
+        </p>
       </div>
     </div>
   );
@@ -58,7 +54,7 @@ function Feature({title, Svg, description}: FeatureItem) {
 
 export default function HomepageFeatures(): ReactNode {
   return (
-    <section className={styles.features}>
+    <section className={cn("features", styles.features)}>
       <div className="container">
         <div className="row">
           {FeatureList.map((props, idx) => (

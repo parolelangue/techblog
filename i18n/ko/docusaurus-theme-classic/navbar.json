@@ -30,5 +30,21 @@
   "item.label.Documentation": {
     "message": "Documentation",
     "description": "Navbar item with label Documentation"
+  },
+  "item.label.Notice": {
+    "message": "알아채다",
+    "description": "Navbar item with label Notice"
+  },
+  "item.label.Solution": {
+    "message": "해결책",
+    "description": "Navbar item with label Solution"
+  },
+  "item.label.Service": {
+    "message": "서비스",
+    "description": "Navbar item with label Service"
+  },
+  "item.label.Technology": {
+    "message": "기술",
+    "description": "Navbar item with label Technology"
   }
 }

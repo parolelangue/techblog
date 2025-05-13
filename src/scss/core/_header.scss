@@ -27,6 +27,12 @@
       align-items: center;
     }
 
+    &__brand {
+      .navbar__title {
+        display: none;
+      }
+    }
+
     &__item {
       font-weight: 500;
     }

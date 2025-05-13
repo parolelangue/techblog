@@ -1,30 +1,144 @@
 {
+  "Solution": {
+    "message": "Solution"
+  },
+  "Service": {
+    "message": "Service"
+  },
+  "Technology": {
+    "message": "Technology"
+  },
+  "Smarter Solutions, Power by AI": {
+    "message": "Smarter Solutions, Power by AI"
+  },
+  "Human Computing Services for Digital Transformation": {
+    "message": "Human Computing Services for Digital Transformation."
+  },
+  "Our core technology is specialized in Artificial Intelligence": {
+    "message": "Our core technology is specialized in Artificial Intelligence"
+  },
   "version.label": {
     "message": "Next",
     "description": "The label for version current"
   },
-  "sidebar.tutorialSidebar.category.Tutorial - Basics": {
-    "message": "Tutorial - Basics",
-    "description": "The label for category Tutorial - Basics in sidebar tutorialSidebar"
+  "sidebar.tutorialSidebar.category.Notice": {
+    "message": "Notice",
+    "description": "The label for category Notice in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.Tutorial - Basics.link.generated-index.description": {
-    "message": "5 minutes to learn the most important Docusaurus concepts.",
-    "description": "The generated-index page description for category Tutorial - Basics in sidebar tutorialSidebar"
+  "sidebar.tutorialSidebar.category.service": {
+    "message": "Service",
+    "description": "The label for category service in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.Tutorial - Extras": {
-    "message": "Tutorial - Extras",
-    "description": "The label for category Tutorial - Extras in sidebar tutorialSidebar"
+  "sidebar.tutorialSidebar.category.data-integration": {
+    "message": "Data Integration",
+    "description": "The label for category data-integration in sidebar tutorialSidebar"
   },
-  "sidebar.methodsSidebar.category.Tutorial - Basics": {
-    "message": "Tutorial - Basics",
-    "description": "The label for category Tutorial - Basics in sidebar methodsSidebar"
+  "sidebar.tutorialSidebar.category.editing-digital-contents": {
+    "message": "Editing Digital Contents",
+    "description": "The label for category editing-digital-contents in sidebar tutorialSidebar"
   },
-  "sidebar.methodsSidebar.category.Tutorial - Basics.link.generated-index.description": {
-    "message": "5 minutes to learn the most important Docusaurus concepts.",
-    "description": "The generated-index page description for category Tutorial - Basics in sidebar methodsSidebar"
+  "sidebar.tutorialSidebar.category.service-desk": {
+    "message": "Service Desk",
+    "description": "The label for category service-desk in sidebar tutorialSidebar"
   },
-  "sidebar.methodsSidebar.category.Tutorial - Extras": {
-    "message": "Tutorial - Extras",
-    "description": "The label for category Tutorial - Extras in sidebar methodsSidebar"
+  "sidebar.tutorialSidebar.category.software-testing": {
+    "message": "Software Testing",
+    "description": "The label for category software-testing in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.solution": {
+    "message": "Solution",
+    "description": "The label for category solution in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.smart-factory": {
+    "message": "Smart Factory",
+    "description": "The label for category smart-factory in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.smart-healthcare": {
+    "message": "Smart Healthcare",
+    "description": "The label for category smart-healthcare in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.smart-logistics": {
+    "message": "Smart Logistics",
+    "description": "The label for category smart-logistics in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.technology": {
+    "message": "Technology",
+    "description": "The label for category technology in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.llm": {
+    "message": "LLM",
+    "description": "The label for category llm in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.mlops": {
+    "message": "MLOps",
+    "description": "The label for category mlops in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.rpa": {
+    "message": "RPA",
+    "description": "The label for category rpa in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.vision-ai": {
+    "message": "Vison AI",
+    "description": "The label for category vision-ai in sidebar tutorialSidebar"
+  },
+  "sidebar.methodsSidebar.category.Notice": {
+    "message": "Notice",
+    "description": "The label for category Notice in sidebar methodsSidebar"
+  },
+  "sidebar.methodsSidebar.category.service": {
+    "message": "Service",
+    "description": "The label for category service in sidebar methodsSidebar"
+  },
+  "sidebar.methodsSidebar.category.data-integration": {
+    "message": "Data Integration",
+    "description": "The label for category data-integration in sidebar methodsSidebar"
+  },
+  "sidebar.methodsSidebar.category.editing-digital-contents": {
+    "message": "Editing Digital Contents",
+    "description": "The label for category editing-digital-contents in sidebar methodsSidebar"
+  },
+  "sidebar.methodsSidebar.category.service-desk": {
+    "message": "Service Desk",
+    "description": "The label for category service-desk in sidebar methodsSidebar"
+  },
+  "sidebar.methodsSidebar.category.software-testing": {
+    "message": "Software Testing",
+    "description": "The label for category software-testing in sidebar methodsSidebar"
+  },
+  "sidebar.methodsSidebar.category.solution": {
+    "message": "Solution",
+    "description": "The label for category solution in sidebar methodsSidebar"
+  },
+  "sidebar.methodsSidebar.category.smart-factory": {
+    "message": "Smart Factory",
+    "description": "The label for category smart-factory in sidebar methodsSidebar"
+  },
+  "sidebar.methodsSidebar.category.smart-healthcare": {
+    "message": "Smart Healthcare",
+    "description": "The label for category smart-healthcare in sidebar methodsSidebar"
+  },
+  "sidebar.methodsSidebar.category.smart-logistics": {
+    "message": "Smart Logistics",
+    "description": "The label for category smart-logistics in sidebar methodsSidebar"
+  },
+  "sidebar.methodsSidebar.category.technology": {
+    "message": "Technology",
+    "description": "The label for category technology in sidebar methodsSidebar"
+  },
+  "sidebar.methodsSidebar.category.llm": {
+    "message": "LLM",
+    "description": "The label for category llm in sidebar methodsSidebar"
+  },
+  "sidebar.methodsSidebar.category.mlops": {
+    "message": "MLOps",
+    "description": "The label for category mlops in sidebar methodsSidebar"
+  },
+  "sidebar.methodsSidebar.category.rpa": {
+    "message": "RPA",
+    "description": "The label for category rpa in sidebar methodsSidebar"
+  },
+  "sidebar.methodsSidebar.category.vision-ai": {
+    "message": "Vison AI",
+    "description": "The label for category vision-ai in sidebar methodsSidebar"
   }
 }

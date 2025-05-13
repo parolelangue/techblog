@@ -1,6 +1,8 @@
 @use "./_mixins.scss" as *;
 
 .main-content {
+  margin-top: 1rem;
+  height: 100%;
   .doc-toc {
     .table-of-contents {
       border-left: none;

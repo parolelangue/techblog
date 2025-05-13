@@ -21,8 +21,8 @@ const ArrowRight: FunctionComponent<Props> = ({
     >
       <path
         d="M1.24902 1.50195L8.74902 9.00195L1.24902 16.502"
-        stroke="#919297"
-        strokeWidth="1.5"
+        stroke="rgba(0,0,0,0.6)"
+        strokeWidth="1"
         strokeLinecap="round"
         strokeLinejoin="round"
       />

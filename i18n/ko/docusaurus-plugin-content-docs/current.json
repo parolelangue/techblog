@@ -3,28 +3,124 @@
     "message": "Next",
     "description": "The label for version current"
   },
-  "sidebar.tutorialSidebar.category.Tutorial - Basics": {
-    "message": "Tutorial - Basics",
-    "description": "The label for category Tutorial - Basics in sidebar tutorialSidebar"
+  "sidebar.tutorialSidebar.category.Notice": {
+    "message": "알아채다",
+    "description": "The label for category Notice in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.Tutorial - Basics.link.generated-index.description": {
-    "message": "5 minutes to learn the most important Docusaurus concepts.",
-    "description": "The generated-index page description for category Tutorial - Basics in sidebar tutorialSidebar"
+  "sidebar.tutorialSidebar.category.service": {
+    "message": "서비스",
+    "description": "The label for category service in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.Tutorial - Extras": {
-    "message": "Tutorial - Extras",
-    "description": "The label for category Tutorial - Extras in sidebar tutorialSidebar"
+  "sidebar.tutorialSidebar.category.data-integration": {
+    "message": "데이터 통합",
+    "description": "The label for category data-integration in sidebar tutorialSidebar"
   },
-  "sidebar.methodsSidebar.category.Tutorial - Basics": {
-    "message": "Tutorial - Basics",
-    "description": "The label for category Tutorial - Basics in sidebar methodsSidebar"
+  "sidebar.tutorialSidebar.category.editing-digital-contents": {
+    "message": "디지털 콘텐츠 편집",
+    "description": "The label for category editing-digital-contents in sidebar tutorialSidebar"
   },
-  "sidebar.methodsSidebar.category.Tutorial - Basics.link.generated-index.description": {
-    "message": "5 minutes to learn the most important Docusaurus concepts.",
-    "description": "The generated-index page description for category Tutorial - Basics in sidebar methodsSidebar"
+  "sidebar.tutorialSidebar.category.service-desk": {
+    "message": "서비스 데스크",
+    "description": "The label for category service-desk in sidebar tutorialSidebar"
   },
-  "sidebar.methodsSidebar.category.Tutorial - Extras": {
-    "message": "Tutorial - Extras",
-    "description": "The label for category Tutorial - Extras in sidebar methodsSidebar"
+  "sidebar.tutorialSidebar.category.software-testing": {
+    "message": "소프트웨어 테스팅",
+    "description": "The label for category software-testing in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.solution": {
+    "message": "해결책",
+    "description": "The label for category solution in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.smart-factory": {
+    "message": "스마트팩토리",
+    "description": "The label for category smart-factory in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.smart-healthcare": {
+    "message": "스마트 헬스케어",
+    "description": "The label for category smart-healthcare in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.smart-logistics": {
+    "message": "스마트 물류",
+    "description": "The label for category smart-logistics in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.technology": {
+    "message": "기술",
+    "description": "The label for category technology in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.llm": {
+    "message": "llm",
+    "description": "The label for category llm in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.mlops": {
+    "message": "mlops",
+    "description": "The label for category mlops in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.rpa": {
+    "message": "rpa",
+    "description": "The label for category rpa in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.vision-ai": {
+    "message": "vision-ai",
+    "description": "The label for category vision-ai in sidebar tutorialSidebar"
+  },
+  "sidebar.methodsSidebar.category.Notice": {
+    "message": "알아채다",
+    "description": "The label for category Notice in sidebar methodsSidebar"
+  },
+  "sidebar.methodsSidebar.category.service": {
+    "message": "서비스",
+    "description": "The label for category service in sidebar methodsSidebar"
+  },
+  "sidebar.methodsSidebar.category.data-integration": {
+    "message": "데이터 통합",
+    "description": "The label for category data-integration in sidebar methodsSidebar"
+  },
+  "sidebar.methodsSidebar.category.editing-digital-contents": {
+    "message": "디지털 콘텐츠 편집",
+    "description": "The label for category editing-digital-contents in sidebar methodsSidebar"
+  },
+  "sidebar.methodsSidebar.category.service-desk": {
+    "message": "서비스 데스크",
+    "description": "The label for category service-desk in sidebar methodsSidebar"
+  },
+  "sidebar.methodsSidebar.category.software-testing": {
+    "message": "소프트웨어 테스팅",
+    "description": "The label for category software-testing in sidebar methodsSidebar"
+  },
+  "sidebar.methodsSidebar.category.solution": {
+    "message": "해결책",
+    "description": "The label for category solution in sidebar methodsSidebar"
+  },
+  "sidebar.methodsSidebar.category.smart-factory": {
+    "message": "스마트팩토리",
+    "description": "The label for category smart-factory in sidebar methodsSidebar"
+  },
+  "sidebar.methodsSidebar.category.smart-healthcare": {
+    "message": "스마트 헬스케어",
+    "description": "The label for category smart-healthcare in sidebar methodsSidebar"
+  },
+  "sidebar.methodsSidebar.category.smart-logistics": {
+    "message": "스마트 물류",
+    "description": "The label for category smart-logistics in sidebar methodsSidebar"
+  },
+  "sidebar.methodsSidebar.category.technology": {
+    "message": "기술",
+    "description": "The label for category technology in sidebar methodsSidebar"
+  },
+  "sidebar.methodsSidebar.category.llm": {
+    "message": "llm",
+    "description": "The label for category llm in sidebar methodsSidebar"
+  },
+  "sidebar.methodsSidebar.category.mlops": {
+    "message": "mlops",
+    "description": "The label for category mlops in sidebar methodsSidebar"
+  },
+  "sidebar.methodsSidebar.category.rpa": {
+    "message": "rpa",
+    "description": "The label for category rpa in sidebar methodsSidebar"
+  },
+  "sidebar.methodsSidebar.category.vision-ai": {
+    "message": "vision-ai",
+    "description": "The label for category vision-ai in sidebar methodsSidebar"
   }
 }

@@ -7,25 +7,24 @@ import HomepageFeatures from "@site/src/components/HomepageFeatures";
 import Heading from "@theme/Heading";
 
 import styles from "./index.module.css";
-import Translate from "@docusaurus/Translate";
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <header className={clsx("hero hero--primary", styles.heroBanner)}>
-      <div className="container">
+      <div className="container content">
         <Heading as="h1" className="hero__title">
           {siteConfig.title}
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
+        {/* <div className={styles.buttons}>
           <Link
             className="button red button--secondary button--lg"
             to="/docs/intro"
           >
             <Translate>Aprotech Tutorial </Translate> ⏱️
           </Link>
-        </div>
+        </div> */}
       </div>
     </header>
   );
@@ -38,8 +37,8 @@ export default function Home(): ReactNode {
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />"
     >
-      <HomepageHeader />
-      <main>
+      <main className="homepage">
+        <HomepageHeader />
         <HomepageFeatures />
       </main>
     </Layout>

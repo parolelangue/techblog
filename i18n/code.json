@@ -2,6 +2,15 @@
   "Aprotech Tutorial": {
     "message": "Aprotech Tutorial"
   },
+  "Solution": {
+    "message": "해결책"
+  },
+  "Service": {
+    "message": "서비스"
+  },
+  "Technology": {
+    "message": "기술"
+  },
   "theme.navbar.mobileVersionsDropdown.label": {
     "message": "Versions",
     "description": "The label for the navbar versions dropdown on mobile view"

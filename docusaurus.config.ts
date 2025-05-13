@@ -6,7 +6,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
   title: "Aprotech",
-  tagline: "Aprotech",
+  tagline: "Greate Idea & Create Technology",
   favicon: "img/small-logo.png",
 
   // Set the production url of your site here
@@ -24,8 +24,9 @@ const config: Config = {
   onBrokenMarkdownLinks: "ignore",
 
   i18n: {
-    defaultLocale: "en",
-    locales: ["en", "ko", "vi"],
+    defaultLocale: "ko",
+    // locales: ["en", "ko","vi"],
+    locales: ["en", "ko"],
     localeConfigs: {
       en: {
         label: "English",
@@ -34,9 +35,9 @@ const config: Config = {
       ko: {
         label: "Korean",
       },
-      vi: {
-        label: "Vietnam",
-      },
+      // vi: {
+      //   label: "Vietnam",
+      // },
     },
   },
 
@@ -102,17 +103,32 @@ const config: Config = {
         //   label: "Open Aprotech",
         //   to: "/apis",
         // },
+
         {
           type: "docSidebar",
           sidebarId: "tutorialSidebar",
           position: "right",
-          label: "Documentation",
+          label: "Notice",
         },
         {
-          to: "/blog",
-          label: "Blog",
+          type: "docSidebar",
+          sidebarId: "tutorialSidebar",
           position: "right",
+          label: "Solution",
         },
+        {
+          type: "docSidebar",
+          sidebarId: "tutorialSidebar",
+          position: "right",
+          label: "Service",
+        },
+        {
+          type: "docSidebar",
+          sidebarId: "tutorialSidebar",
+          position: "right",
+          label: "Technology",
+        },
+
         {
           type: "localeDropdown",
           position: "right",

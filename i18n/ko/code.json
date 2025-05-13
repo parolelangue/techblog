@@ -1,4 +1,22 @@
 {
+  "Solution": {
+    "message": "해결책"
+  },
+  "Service": {
+    "message": "서비스"
+  },
+  "Technology": {
+    "message": "기술"
+  },
+  "Smarter Solutions, Power by AI": {
+    "message": "AI 기술이 적용된 스마트 솔루션"
+  },
+  "Human Computing Services for Digital Transformation": {
+    "message": "디지털 전환을 위한 휴먼컴퓨팅 서비스를 제공합니다."
+  },
+  "Our core technology is specialized in Artificial Intelligence": {
+    "message": "우리 핵심역량은 인공지능 기술에 특화되어 있습니다."
+  },
   "theme.ErrorPageContent.title": {
     "message": "페이지에 오류가 발생하였습니다.",
     "description": "The title of the fallback page when the page crashed"

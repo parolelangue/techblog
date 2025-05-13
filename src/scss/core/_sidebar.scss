@@ -2,6 +2,7 @@
 
 .sidebar {
   padding-top: 16px;
+  margin-top: 2rem;
   position: sticky;
   top: 0;
   transition: var(--main-cubic-beizer);
@@ -20,16 +21,26 @@
           &:hover {
             color: var(--ifm-menu-hover-color) !important;
           }
+
+          &--sublist-caret {
+            &:after {
+              // background: url('data:image/svg+xml;utf8, <svg width="8" height="16" viewBox="0 0 10 18" fill="#919297" xmlns="http://www.w3.org/2000/svg" class="arrow"><path d="M1.24902 1.50195L8.74902 9.00195L1.24902 16.502" stroke="#919297" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg> ')
+              //   50% / 2rem 2rem;
+            }
+          }
         }
         .clean-btn,
         .menu__caret {
           padding: 0.375rem 0.75rem;
-          margin-right: 0.375rem;
+          margin-right: 0.325rem;
           border-radius: 0.5rem;
           .arrow {
             transition: all 0.25s;
           }
           &::before {
+            display: none;
+          }
+          &::after {
             display: none;
           }
           &.active {

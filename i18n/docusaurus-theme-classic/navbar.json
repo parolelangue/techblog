@@ -10,5 +10,21 @@
   "item.label.Blog": {
     "message": "Blog",
     "description": "Navbar item with label Blog"
+  },
+  "item.label.Notice": {
+    "message": "Notice",
+    "description": "Navbar item with label Notice"
+  },
+  "item.label.Solution": {
+    "message": "Solution",
+    "description": "Navbar item with label Solution"
+  },
+  "item.label.Service": {
+    "message": "Service",
+    "description": "Navbar item with label Service"
+  },
+  "item.label.Technology": {
+    "message": "Technology",
+    "description": "Navbar item with label Technology"
   }
 }

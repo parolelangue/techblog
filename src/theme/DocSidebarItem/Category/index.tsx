@@ -106,7 +106,7 @@ function CollapseButton({
       className={cn(`clean-btn menu__caret`, { active: !collapsed })}
       onClick={onClick}
     >
-      <ICS.ArrowRight className="arrow" />
+      <ICS.ArrowRight className="arrow" size={16} />
     </button>
   );
 }

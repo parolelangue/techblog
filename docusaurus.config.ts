@@ -24,7 +24,7 @@ const config: Config = {
   onBrokenMarkdownLinks: "ignore",
 
   i18n: {
-    defaultLocale: "ko",
+    defaultLocale: "en",
     // locales: ["en", "ko","vi"],
     locales: ["en", "ko"],
     localeConfigs: {
@@ -98,33 +98,27 @@ const config: Config = {
         src: "img/logo.png",
       },
       items: [
-        // {
-        //   position: "right",
-        //   label: "Open Aprotech",
-        //   to: "/apis",
-        // },
-
         {
-          type: "docSidebar",
-          sidebarId: "tutorialSidebar",
+          type: "doc",
+          docId: "notice/notice",
           position: "right",
           label: "Notice",
         },
         {
-          type: "docSidebar",
-          sidebarId: "tutorialSidebar",
+          type: "doc",
           position: "right",
+          docId: "solution/about",
           label: "Solution",
         },
         {
-          type: "docSidebar",
-          sidebarId: "tutorialSidebar",
+          type: "doc",
+          docId: "service/about",
           position: "right",
           label: "Service",
         },
         {
-          type: "docSidebar",
-          sidebarId: "tutorialSidebar",
+          type: "doc",
+          docId: "technology/about",
           position: "right",
           label: "Technology",
         },

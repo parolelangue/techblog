@@ -21,8 +21,88 @@ const sidebars: SidebarsConfig = {
   // tutorialSidebar: [
   //   {
   //     type: "category",
-  //     label: "Tutorial",
-  //     items: ["tutorial-basics/create-a-document"],
+  //     label: "Notice",
+  //     items: ["notice/notice", "notice/links", "notice/news", "notice/contact"],
+  //   },
+  //   {
+  //     type: "category",
+  //     label: "Solution",
+  //     items: [
+  //       "solution/about",
+  //       {
+  //         type: "category",
+  //         label: "Smart Factory",
+  //         items: [
+  //           "solution/smart-factory/intro",
+  //           "solution/smart-factory/mes",
+  //           "solution/smart-factory/mrp",
+  //         ],
+  //       },
+  //       {
+  //         type: "category",
+  //         label: "Smart Healthcare",
+  //         items: ["solution/smart-healthcare/intro"],
+  //       },
+  //       {
+  //         type: "category",
+  //         label: "Smart Logistics",
+  //         items: ["solution/smart-logistics/intro"],
+  //       },
+  //     ],
+  //   },
+  //   {
+  //     type: "category",
+  //     label: "Service",
+  //     items: [
+  //       "service/about",
+  //       {
+  //         type: "category",
+  //         label: "Data Integration",
+  //         items: ["service/data-integration/intro"],
+  //       },
+  //       {
+  //         type: "category",
+  //         label: "Editing Digital Contents",
+  //         items: ["service/editing-digital-contents/intro"],
+  //       },
+  //       {
+  //         type: "category",
+  //         label: "Service Desk",
+  //         items: ["service/service-desk/intro"],
+  //       },
+  //       {
+  //         type: "category",
+  //         label: "Software Testing",
+  //         items: ["service/software-testing/intro"],
+  //       },
+  //     ],
+  //   },
+  //   {
+  //     type: "category",
+  //     label: "Technology",
+  //     items: [
+  //       "technology/about",
+  //       {
+  //         type: "category",
+  //         label: "LLM",
+  //         items: ["technology/llm/intro"],
+  //       },
+  //       {
+  //         type: "category",
+  //         label: "MLOps",
+  //         items: ["technology/mlops/intro"],
+  //       },
+  //       {
+  //         type: "category",
+  //         label: "RPA",
+  //         items: ["technology/rpa/intro"],
+  //       },
+  //       {
+  //         type: "category",
+  //         label: "Vision AI",
+  //         items: ["technology/vision-ai/intro"],
+  //       },
+  //     ],
   //   },
   // ],
 };

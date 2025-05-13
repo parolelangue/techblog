@@ -48,19 +48,19 @@
     "description": "The label for category technology in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.llm": {
-    "message": "llm",
+    "message": "LLM",
     "description": "The label for category llm in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.mlops": {
-    "message": "mlops",
+    "message": "MLOps",
     "description": "The label for category mlops in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.rpa": {
-    "message": "rpa",
+    "message": "RPA",
     "description": "The label for category rpa in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.vision-ai": {
-    "message": "vision-ai",
+    "message": "Vision AI",
     "description": "The label for category vision-ai in sidebar tutorialSidebar"
   },
   "sidebar.methodsSidebar.category.Notice": {
@@ -108,19 +108,19 @@
     "description": "The label for category technology in sidebar methodsSidebar"
   },
   "sidebar.methodsSidebar.category.llm": {
-    "message": "llm",
+    "message": "LLM",
     "description": "The label for category llm in sidebar methodsSidebar"
   },
   "sidebar.methodsSidebar.category.mlops": {
-    "message": "mlops",
+    "message": "MLOps",
     "description": "The label for category mlops in sidebar methodsSidebar"
   },
   "sidebar.methodsSidebar.category.rpa": {
-    "message": "rpa",
+    "message": "RPA",
     "description": "The label for category rpa in sidebar methodsSidebar"
   },
   "sidebar.methodsSidebar.category.vision-ai": {
-    "message": "vision-ai",
+    "message": "Vision AI",
     "description": "The label for category vision-ai in sidebar methodsSidebar"
   }
 }

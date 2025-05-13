@@ -4,9 +4,9 @@
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
-    "start": "node --max_old_space_size=1536 ./node_modules/.bin/docusaurus start --host 0.0.0.0 --port $PORT",
-    "build": "node --max_old_space_size=1536 ./node_modules/.bin/docusaurus build",
-    "serve": "node --max_old_space_size=1536 ./node_modules/.bin/docusaurus serve --host 0.0.0.0 --port $PORT",
+    "start": "node --max_old_space_size=2048 ./node_modules/.bin/docusaurus start --host 0.0.0.0 --port $PORT",
+    "build": "node --max_old_space_size=2048 ./node_modules/.bin/docusaurus build",
+    "serve": "node --max_old_space_size=2048 ./node_modules/.bin/docusaurus serve --host 0.0.0.0 --port $PORT",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",

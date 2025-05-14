@@ -24,7 +24,7 @@ const config: Config = {
   onBrokenMarkdownLinks: "ignore",
 
   i18n: {
-    defaultLocale: "en",
+    defaultLocale: "ko",
     // locales: ["en", "ko","vi"],
     locales: ["en", "ko"],
     localeConfigs: {
@@ -98,29 +98,35 @@ const config: Config = {
         src: "img/logo.png",
       },
       items: [
+        // {
+        //   type: "doc",
+        //   docId: "notice/notice",
+        //   position: "right",
+        //   label: "Notice",
+        // },
+        // {
+        //   type: "doc",
+        //   position: "right",
+        //   docId: "solution/about",
+        //   label: "Solution",
+        // },
+        // {
+        //   type: "doc",
+        //   docId: "service/about",
+        //   position: "right",
+        //   label: "Service",
+        // },
+        // {
+        //   type: "doc",
+        //   docId: "technology/about",
+        //   position: "right",
+        //   label: "Technology",
+        // },
         {
-          type: "doc",
-          docId: "notice/notice",
+          type: "docSidebar",
+          sidebarId: "tutorialSidebar",
           position: "right",
-          label: "Notice",
-        },
-        {
-          type: "doc",
-          position: "right",
-          docId: "solution/about",
-          label: "Solution",
-        },
-        {
-          type: "doc",
-          docId: "service/about",
-          position: "right",
-          label: "Service",
-        },
-        {
-          type: "doc",
-          docId: "technology/about",
-          position: "right",
-          label: "Technology",
+          label: "Documentation",
         },
 
         {

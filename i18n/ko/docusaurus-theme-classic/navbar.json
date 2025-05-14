@@ -28,7 +28,7 @@
     "description": "Navbar item with label Open Aprotech"
   },
   "item.label.Documentation": {
-    "message": "Documentation",
+    "message": "기술문서",
     "description": "Navbar item with label Documentation"
   },
   "item.label.Notice": {

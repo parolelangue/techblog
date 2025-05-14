@@ -16,14 +16,8 @@ const FeatureList: FeatureItem[] = [
   {
     title: "Solution",
     Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
-    description: "Smarter Solutions, Power by AI",
+    description: "Smarter Solutions, Power by Artificial Intelligence",
     img: require("@site/static/img/ic-solution.png").default,
-  },
-  {
-    title: "Service",
-    Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
-    description: "Human Computing Services for Digital Transformation",
-    img: require("@site/static/img/ic-service.png").default,
   },
   {
     title: "Technology",
@@ -31,6 +25,12 @@ const FeatureList: FeatureItem[] = [
     description:
       "Our core technology is specialized in Artificial Intelligence",
     img: require("@site/static/img/ic-technology.png").default,
+  },
+  {
+    title: "Service",
+    Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
+    description: "Human Computing Services for Digital Transformation",
+    img: require("@site/static/img/ic-service.png").default,
   },
 ];
 

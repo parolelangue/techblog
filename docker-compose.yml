@@ -1,12 +1,12 @@
 services:
   web:
     build: .
-    image: docusaurus-landing/app:latest
-    container_name: docusaurus-landing
+    image: aprotech-docs/app:latest
+    container_name: aprotech-docs
     restart: always
     env_file:
       - .env.production
     volumes:
       - .:/code
     ports:
-      - '3006:3000'
+      - "3006:3000"

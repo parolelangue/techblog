@@ -1,5 +1,8 @@
 ---
 sidebar_position: 1
+id: news
+title: News
+slug: /notice/news
 ---
 
 # 소식

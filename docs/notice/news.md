@@ -1,8 +1,11 @@
 ---
 sidebar_position: 1
+id: news
+title: News
+slug: /notice/news
 ---
 
-# News
+# 소식
 
 Let's discover **Docusaurus in less than 5 minutes**.
 

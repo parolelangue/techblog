@@ -2,7 +2,7 @@ image: gitlab/dind
 
 variables:
   DOCKER_DRIVER: overlay2
-  APP_IMAGE: docusaurus-landing/app
+  APP_IMAGE: aprotech-docs/app
   APP_TAG: latest
 
 stages:

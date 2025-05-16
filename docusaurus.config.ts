@@ -199,9 +199,9 @@ const config: Config = {
       darkTheme: prismThemes.dracula,
     },
     algolia: {
-      apiKey: "17628b7b0bf1fa54a175ff85819743d4",
-      appId: "SNWY620F15",
-      indexName: "usaurus-app-three",
+      apiKey: "88a294715e3abb1fe973c8d546c431a3",
+      appId: "C6FH5C1IZ0",
+      indexName: "tech-aprotech",
       contextualSearch: true,
       insights: true,
       // searchPagePath: "search",

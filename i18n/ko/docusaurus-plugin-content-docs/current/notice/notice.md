@@ -7,7 +7,7 @@ import TabItem from '@theme/TabItem';
 import Mermaid from '@theme/Mermaid';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
-# 알아채다
+# 공지사항
 
 Let's discover **Docusaurus in less than 5 minutes**.
 

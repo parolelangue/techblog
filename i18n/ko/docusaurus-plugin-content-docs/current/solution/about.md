@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# 에 대한
+# 서비스소개
 
 Let's discover **Docusaurus in less than 5 minutes**.
 

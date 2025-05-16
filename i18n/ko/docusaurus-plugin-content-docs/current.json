@@ -4,7 +4,7 @@
     "description": "The label for version current"
   },
   "sidebar.tutorialSidebar.category.Notice": {
-    "message": "알아채다",
+    "message": "공지사항",
     "description": "The label for category Notice in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.service": {
@@ -28,7 +28,7 @@
     "description": "The label for category software-testing in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.solution": {
-    "message": "해결책",
+    "message": "솔루션",
     "description": "The label for category solution in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.smart-factory": {
@@ -64,7 +64,7 @@
     "description": "The label for category vision-ai in sidebar tutorialSidebar"
   },
   "sidebar.methodsSidebar.category.Notice": {
-    "message": "알아채다",
+    "message": "공지사항",
     "description": "The label for category Notice in sidebar methodsSidebar"
   },
   "sidebar.methodsSidebar.category.service": {
@@ -88,7 +88,7 @@
     "description": "The label for category software-testing in sidebar methodsSidebar"
   },
   "sidebar.methodsSidebar.category.solution": {
-    "message": "해결책",
+    "message": "솔루션",
     "description": "The label for category solution in sidebar methodsSidebar"
   },
   "sidebar.methodsSidebar.category.smart-factory": {
